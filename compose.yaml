@@ -1,0 +1,9 @@
+﻿services:
+  leyadintegracion:
+    image: leyadintegracion
+    build:
+      context: .
+      dockerfile: LeyadIntegracion/Dockerfile
+    ports:
+      - "8080:8080"
+
